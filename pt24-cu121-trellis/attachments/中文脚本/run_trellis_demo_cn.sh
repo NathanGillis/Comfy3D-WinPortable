@@ -25,7 +25,7 @@ export SPCONV_ALGO="native"
 # 默认使用 "xformers" 以保证兼容性
 # 如果需要高性能，尝试改为 "flash-attn"
 # Flash Attention 只能用于 Ampere (RTX 30 系 / A100) 及更新的 GPU
-export ATTN_BACKEND="xformers"
+export ATTN_BACKEND="flash-attn"
 
 ################################################################################
 

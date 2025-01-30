@@ -1,5 +1,5 @@
 @REM Edit this first! According to your GPU model.
-set TORCH_CUDA_ARCH_LIST=6.1+PTX
+set TORCH_CUDA_ARCH_LIST=8.6
 
 @REM Set the correct path for CUDA Toolkit if you install it elsewhere.
 set CUDA_HOME=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.1

@@ -1,6 +1,6 @@
 @REM 编辑为你的 GPU 对应架构
 @REM 修改时无需保留 "+PTX" ，其用于向前兼容，防止用户忘了该步骤。
-set TORCH_CUDA_ARCH_LIST=6.1+PTX
+set TORCH_CUDA_ARCH_LIST=8.6
 
 @REM 编译安装 PyTorch3D
 @REM PyTorch3D 对 Windows 不甚友好，所有二进制安装都可能在某个节点报错，极难排查，故最好提前编译安装。

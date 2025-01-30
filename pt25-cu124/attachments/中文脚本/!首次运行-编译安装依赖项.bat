@@ -1,7 +1,7 @@
 @REM 编辑为你的 GPU 对应架构
 @REM 修改时无需保留 "+PTX" ，其用于向前兼容，防止用户忘了该步骤。
 
-set TORCH_CUDA_ARCH_LIST=6.1+PTX
+set TORCH_CUDA_ARCH_LIST=8.6
 
 @REM 使用清华 PyPI 源
 set PIP_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple

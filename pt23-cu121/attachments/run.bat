@@ -1,5 +1,5 @@
 @REM Edit this first! According to your GPU model.
-set TORCH_CUDA_ARCH_LIST=6.1+PTX
+set TORCH_CUDA_ARCH_LIST=8.6
 
 @REM To set proxy, edit and uncomment the two lines below (remove 'rem ' in the beginning of line).
 rem set HTTP_PROXY=http://localhost:1081

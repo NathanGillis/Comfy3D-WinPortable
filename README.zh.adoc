@@ -244,7 +244,7 @@ https://docs.nvidia.com/cuda/archive/12.4.1/cuda-installation-guide-microsoft-wi
 
 将该行：
 
- set TORCH_CUDA_ARCH_LIST=6.1+PTX
+ set TORCH_CUDA_ARCH_LIST=8.6
 
 根据你的 
 https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/[GPU 架构]
@@ -260,7 +260,7 @@ https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-c
 
 同样的，修改该行：
 
- set TORCH_CUDA_ARCH_LIST=6.1+PTX
+ set TORCH_CUDA_ARCH_LIST=8.6
 
 此外，该脚本中还有若干可选项，比如：
 

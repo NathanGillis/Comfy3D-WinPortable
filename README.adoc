@@ -209,7 +209,7 @@ https://docs.nvidia.com/cuda/archive/12.4.1/cuda-installation-guide-microsoft-wi
 
 You can see the line:
 
- set TORCH_CUDA_ARCH_LIST=6.1+PTX
+ set TORCH_CUDA_ARCH_LIST=8.6
 
 Edit it according to your 
 https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/[GPU arch].
@@ -223,7 +223,7 @@ For example, for an RTX 4060 Ti, it should be:
 
 You can see the line (again):
 
- set TORCH_CUDA_ARCH_LIST=6.1+PTX
+ set TORCH_CUDA_ARCH_LIST=8.6
 
 Edit it like you just did in the last step.
 
